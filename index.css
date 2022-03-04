@@ -14,7 +14,7 @@
     align-items: center;   
 }
 #backgroundis{
-    background: url(https://wallpaperbat.com/img/94278-web-design-wallpaper-top-free-web-design-background.jpg);
+    background-image: url(images/back.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
