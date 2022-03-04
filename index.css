@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;  
+    
+   
+}
+
+.whole{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;   
+}
+#backgroundis{
+    background: url(https://wallpaperbat.com/img/94278-web-design-wallpaper-top-free-web-design-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    
+}
+.images{
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+
+.images .shape{
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+}
+
+.images img{
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+}
+
+.images:hover .shape{
+    
+    bottom: 40px;
+}
+
+.images:hover .me{
+    left: 45%;
+}
+.logo{
+    width: 100px;
+    cursor: pointer;
+}
+
+.navbar ul{
+    display: flex;
+    list-style: none;
+}
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(39, 4, 80);
+    font-weight: bold;
+    
+}
+
+nav ul li a:hover{
+    border-bottom: 2px solid yellow;
+    color: red;
+}
+
+#home{
+    margin-left: 8%;
+    margin-top: 15%;
+    display: flex;
+    flex-direction: column;
+    height: 650px;
+}
+
+#home h1{
+    font-size: 50px;
+    color: #212121;
+    margin-bottom: 20px;
+}
+
+span{
+    color: rgb(4, 0, 255);
+    
+}
+
+#about{
+    
+    position: absolute;
+    width: 625px;
+    height: 223px;
+    left: 60px;
+    top: 780px;
+    font-family: Times New Roman;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 33px;
+    line-height: 38px;
+    color: #000000;
+
+}
+#iiit{
+    position: absolute;
+    width: 625px;
+    height: 223px;
+    left: 60px;
+    top: 890px;
+    font-family: Times New Roman;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 33px;
+    line-height: 38px;
+    color: #061f2e;
+}
+
+#tvn{
+    position: absolute;
+    width: 627px;
+    height: 356px;
+    left: 755px;
+    top: 890px;
+    font-family: Times New Roman;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 33px;
+    line-height: 38px;
+
+    color: #0e58c9;
+}
+.headings{
+    font-family: Times New Roman;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 38px;
+    color: #00f329;
+
+}
+.skill{
+    font-size: 35px;
+    color: rgb(228, 13, 13);
+    width: 100%;
+	padding: 100px 0px;
+	letter-spacing: 2px;
+	margin-bottom: 25px;
+	text-transform: capitalize;
+}
+
+.project{
+    color: white;
+    width: 100%;
+	padding: 100px 0px;
+	letter-spacing: 2px;
+	font-size: 40px;
+	margin-bottom: 25px;
+	text-transform: capitalize;
+}
+#projectsdone{
+    font-family: Times New Roman;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 38px;
+
+    color: #0bafe0;
+
+}
+.achievements{
+    color: rgb(3, 3, 3);
+    width: 100%;
+	padding: 100px 0px;
+	letter-spacing: 2px;
+	font-size: 40px;
+	margin-bottom: 25px;
+	text-transform: capitalize;
+    
+}
+.social{
+    margin-left: 40%;
+    margin-top: 100px;
+    color: rgb(255, 0, 0);
+}
+
+.social a{
+    font-size: 30px;
+    color: #0e0ae7;
+    margin-right: 20px;
+}
+
+.social a:hover{
+    color: orange;
+}
+
+#form{
+    font-family: Times New Roman;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 33px;
+    margin-left: 40%;
+    color: #d6e600;
+    
+}
